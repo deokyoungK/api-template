@@ -30,3 +30,17 @@ spring:
 logging:
   level:
     org.hibernate.type: trace  #콘솔창에 조건에 바인딩되는 값 및 조회 결과 출력
+    com.app: debug # todo 패키지 수정
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        read-timeout: 5000
+
+kakao:
+  client:
+    id: 034cc3601e4e859c8ba66807df96fe33
+    secret: SyKI1r6sr53U8VgC6ybymxYXz4Yha3xR
+

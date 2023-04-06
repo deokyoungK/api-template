@@ -19,14 +19,16 @@ public class ExceptionTestController {
     public String bindExceptionTest(@Valid BindExceptionTestDto bindExceptionTestDto){
         return "ok";
     }
+
     @GetMapping("/type-exception-test")
     public String typeMismatchExceptionTest(TestEnum testEnum){
         return "ok";
     }
+
     @GetMapping("/business-exception-test")
     public String businessExceptionTest(String isError){
         if("true".equals(isError)){
-            throw new BusinessException(ErrorCode.TEST);
+            throw new BusinessException(ErrorCode.TEST_ERROR);
         }
         return "ok";
     }

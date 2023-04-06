@@ -8,20 +8,23 @@ import java.util.*;
 @Getter
 @Builder
 public class ErrorResponse {
-    private String errorCode;
-    private String errorMessage;
+    private String errorCode; // "404"
+    private String errorMessage; //"~~에러입니다"
+
     public static ErrorResponse of(String errorCode, String errorMessage) {
         return ErrorResponse.builder()
                 .errorCode(errorCode)
                 .errorMessage(errorMessage)
                 .build();
     }
+
     public static ErrorResponse of(String errorCode, BindingResult bindingResult) {
         return ErrorResponse.builder()
                 .errorCode(errorCode)
                 .errorMessage(createErrorMessage(bindingResult))
                 .build();
     }
+
     private static String createErrorMessage(BindingResult bindingResult) {
         StringBuilder sb = new StringBuilder();
         boolean isFirst = true;
