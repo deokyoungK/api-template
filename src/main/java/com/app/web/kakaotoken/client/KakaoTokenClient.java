@@ -3,7 +3,6 @@ package com.app.web.kakaotoken.client;
 import com.app.web.kakaotoken.dto.KakaoTokenDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.cloud.openfeign.SpringQueryMap;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 

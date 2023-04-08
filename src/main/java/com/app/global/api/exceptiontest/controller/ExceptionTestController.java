@@ -1,8 +1,8 @@
-package com.app.api.exceptiontest.controller;
+package com.app.global.api.exceptiontest.controller;
 
 
-import com.app.api.exceptiontest.dto.BindExceptionTestDto;
-import com.app.api.exceptiontest.dto.TestEnum;
+import com.app.global.api.exceptiontest.dto.BindExceptionTestDto;
+import com.app.global.api.exceptiontest.dto.TestEnum;
 import com.app.global.error.ErrorCode;
 import com.app.global.error.exception.BusinessException;
 import org.springframework.web.bind.annotation.GetMapping;

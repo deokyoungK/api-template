@@ -10,13 +10,6 @@ public class BusinessException extends RuntimeException{
 
     public BusinessException(ErrorCode errorCode){
         super(errorCode.getMessage());
-        System.out.println("==================");
-        System.out.println("HttpStatus : " +errorCode.getHttpStatus());
-        System.out.println("==================");
-        System.out.println("errorCode : " +errorCode.getErrorCode());
-        System.out.println("==================");
-        System.out.println("Message : " +errorCode.getMessage());
-        System.out.println("==================");
         this.errorCode = errorCode;
     }
 }

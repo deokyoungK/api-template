@@ -1,4 +1,4 @@
-package com.app.api.health.dto;
+package com.app.global.api.health.dto;
 
 
 import lombok.Builder;

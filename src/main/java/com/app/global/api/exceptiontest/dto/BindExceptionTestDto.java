@@ -1,4 +1,4 @@
-package com.app.api.exceptiontest.dto;
+package com.app.global.api.exceptiontest.dto;
 
 import lombok.Getter;
 import lombok.Setter;
