@@ -1,4 +1,4 @@
-package com.app.global.api.login.dto;
+package com.app.api.login.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;

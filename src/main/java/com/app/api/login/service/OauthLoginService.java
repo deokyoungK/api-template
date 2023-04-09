@@ -1,7 +1,7 @@
-package com.app.global.api.login.service;
+package com.app.api.login.service;
 
 
-import com.app.global.api.login.dto.OauthLoginDto;
+import com.app.api.login.dto.OauthLoginDto;
 import com.app.domain.member.constant.MemberType;
 import com.app.external.oauth.kakao.service.SocialLoginApiServiceFactory;
 import com.app.external.oauth.model.OAuthAttributes;

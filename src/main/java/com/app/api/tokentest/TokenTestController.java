@@ -1,4 +1,4 @@
-package com.app.global.api.tokentest;
+package com.app.api.tokentest;
 
 import com.app.domain.member.constant.Role;
 import com.app.global.jwt.dto.JwtTokenDto;

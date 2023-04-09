@@ -1,4 +1,4 @@
-package com.app.global.api.login.validator;
+package com.app.api.login.validator;
 
 import com.app.domain.member.constant.MemberType;
 import com.app.global.error.ErrorCode;

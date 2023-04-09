@@ -1,8 +1,8 @@
-package com.app.global.api.login.controller;
+package com.app.api.login.controller;
 
 
-import com.app.global.api.login.dto.OauthLoginDto;
-import com.app.global.api.login.validator.OauthValidator;
+import com.app.api.login.dto.OauthLoginDto;
+import com.app.api.login.validator.OauthValidator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
